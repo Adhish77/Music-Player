@@ -1,0 +1,208 @@
+  * {
+    box-sizing: border-box;
+    }
+    
+    body {
+    background-color:#273241;
+    }
+
+    .sidebar {
+      height: 100%;
+      width: 200px;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: #222a30;
+      overflow-x: hidden;
+      padding-top: 16px;
+    }
+    
+    .sidebar a {
+      padding: 6px 6px 6px 20px;
+      text-decoration: none;
+      font-size: 12px;
+      color: #818181;
+      display: block;
+      margin: 20px 0px 20px 20px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    .sidebar a:hover {
+      color: rgb(231, 114, 4);
+      border-right: 3px rgb(231, 114, 4) solid;    
+    }
+    
+    button{
+      background-color:#222a30;
+      border-radius: 4px;
+      width: 120px;
+      height: 40px;
+      margin: 10px;
+      margin-left: 20px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 10px;
+      color: white;
+    }
+
+    h4{
+      color:white;
+      margin-left:240px;
+      margin-top:40px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+    h5 {
+    margin: 37px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    
+    input {
+        margin-left: 120px;
+        margin-top: 30px;
+        width: 700px;
+        height: 40px;
+        padding: 15px;
+        border-radius: 7px;
+        border: #4B506D solid;
+        background-color:#222a30;
+        color: white;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      }
+       
+      .Topnav{
+        margin:0px 30px 0px 220px;
+        display: flex;
+        flex-wrap: wrap;
+
+      }
+
+      .Middlenav{
+        margin-left:200px;
+      }
+
+      .Stats{
+        margin: 5px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        }
+        
+        .Card-body{
+        border-radius:5px;
+        width: 190px;
+        height: 120px;
+        flex-direction: row;
+        margin: 5px;
+        background-color:#222a30;
+        color:white;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        
+        .Card-text{
+          padding-left:10%;
+
+        }
+
+        .Bottomnav{
+          margin-left:230px;
+        }
+
+        .Card{
+          margin: 5px;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          float: left;
+        }
+
+        .CardStructure{
+            border-radius:5px;
+            width: 190px;
+            height: 120px;
+            flex-direction: row;
+            margin: 5px;
+            background-color:#222a30;
+            color:white;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        .Bottom-player{
+          background-color: #222a30;
+            /* position:fixed; */
+            width: 1000px;
+            height: 80px;
+            position: fixed;
+            overflow-x: hidden;
+            margin-left: 380px;
+            bottom: 0;
+            border-radius: 5px;
+        }
+
+        .Bottom-player i{
+            margin-left:30px;
+            font-size: 17px;
+            color:gray;
+            margin-bottom: -150px;
+        }
+
+        .Bottom-player span{
+          margin-left: 30px;
+          margin-bottom: -150px;
+          color: gray;
+          font-size: 17px;
+          font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        .Bottom-player .Icons
+        {
+          margin-left:270px;
+          margin-top: -35px;
+        }
+
+        .button1 {
+          background-color: orange; /* Green */
+          border: none;
+          color: white;
+          padding: 3px;
+          height: 1px;
+          margin-top: 32px;
+          margin-left: 0px;
+          margin-right: -1px;
+          position: absolute;
+          width:1px;
+        }
+      
+        .button5 {
+          border-radius: 100px;
+        }
+        
+        .player_range__Y0p1N input[type=range] {
+          display: inline-block;
+          width: 300px;
+          height:1px;
+          -webkit-appearance: none;
+          -moz-appearance: none;
+          appearance: none;
+          background: linear-gradient(180deg,hsla(0,0%,100%,.2),hsla(0,0%,100%,.2)) 100% 50%/100% 3px no-repeat transparent;
+          --range: calc(var(--max) - var(--min));
+          --ratio: calc((var(--val) - var(--min)) / var(--range));
+          --sx: calc(0.5 * 0.5em + var(--ratio) * (100% - 1em));
+      }
+
+      .cursor-pointer {
+        cursor: pointer;
+    }
+
+      .Icons input {
+      margin: 0;
+      padding: 0;
+      width: 300px;
+      height:1px;
+      display: inline-block;
+  } 
+
+
+        
