@@ -95,7 +95,7 @@
         width: 190px;
         height: 120px;
         flex-direction: row;
-        margin: 5px;
+        margin: 10px;
         background-color:#222a30;
         color:white;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -178,31 +178,33 @@
         .button5 {
           border-radius: 100px;
         }
-        
-        .player_range__Y0p1N input[type=range] {
+
+        .Icons .progress_bar{
+          width:320px;
+          height:2px;
+          background-color: gray;
           display: inline-block;
-          width: 300px;
-          height:1px;
-          -webkit-appearance: none;
-          -moz-appearance: none;
-          appearance: none;
-          background: linear-gradient(180deg,hsla(0,0%,100%,.2),hsla(0,0%,100%,.2)) 100% 50%/100% 3px no-repeat transparent;
-          --range: calc(var(--max) - var(--min));
-          --ratio: calc((var(--val) - var(--min)) / var(--range));
-          --sx: calc(0.5 * 0.5em + var(--ratio) * (100% - 1em));
-      }
+          /* margin-top: -10px; */
+        }
 
-      .cursor-pointer {
-        cursor: pointer;
-    }
+        .progressive{
 
-      .Icons input {
-      margin: 0;
-      padding: 0;
-      width: 300px;
-      height:1px;
-      display: inline-block;
-  } 
+          height:2px;
+          background-color:rgb(231, 114, 4);
+          position: relative;
+          transition: all 2s;
+        }
 
-
+        .progressive:after {
+         
+          content:'';
+          position: absolute;
+          background-color:rgb(231, 114, 4);
+          width:10px;
+          height:10px;
+          right:-10px;
+          border-radius: 50%;
+          margin-top:-4px;
+          cursor: pointer;
+        }
         
